@@ -1,13 +1,13 @@
 import { defineClientConfig } from "@vuepress/client";
-import { hasGlobalComponent } from "/Users/z/code/platform/node_modules/vuepress-shared/lib/client/index.js";
+import { hasGlobalComponent } from "D:/Document/code/platform/node_modules/vuepress-shared/lib/client/index.js";
 import { h } from "vue";
 
-import { useScriptTag } from "/Users/z/code/platform/node_modules/@vueuse/core/index.mjs";
-import Badge from "/Users/z/code/platform/node_modules/vuepress-plugin-components/lib/client/components/Badge.js";
-import FontIcon from "/Users/z/code/platform/node_modules/vuepress-plugin-components/lib/client/components/FontIcon.js";
-import BackToTop from "/Users/z/code/platform/node_modules/vuepress-plugin-components/lib/client/components/BackToTop.js";
+import { useScriptTag } from "D:/Document/code/platform/node_modules/@vueuse/core/index.mjs";
+import Badge from "D:/Document/code/platform/node_modules/vuepress-plugin-components/lib/client/components/Badge.js";
+import FontIcon from "D:/Document/code/platform/node_modules/vuepress-plugin-components/lib/client/components/FontIcon.js";
+import BackToTop from "D:/Document/code/platform/node_modules/vuepress-plugin-components/lib/client/components/BackToTop.js";
 
-import "/Users/z/code/platform/node_modules/vuepress-plugin-components/lib/client/styles/sr-only.scss";
+import "D:/Document/code/platform/node_modules/vuepress-plugin-components/lib/client/styles/sr-only.scss";
 
 export default defineClientConfig({
   enhance: ({ app }) => {
